@@ -1,0 +1,41 @@
+/*----------------------------------------------------------------------------- 
+=01 BODY 
+-----------------------------------------------------------------------------*/
+
+body {
+  background-color: black;
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 50px;
+  line-height: 19px;
+
+}
+
+
+#wrapper {
+  background: (/images/1jpg) no-repeat;
+  width: 960px;
+  margin: 0 auto;
+  /*margin: 0 auto; centers our container on the page */
+}
+
+  
+/*----------------------------------------------------------------------------- 
+=02 HEADER 
+-----------------------------------------------------------------------------*/
+
+  header {
+    padding: 100px 200px 50px;
+    text-align: center;
+  }
+  
+  h1 {
+    
+      width: 500px;
+      height: 83px;
+    }
+  
+  
+  
