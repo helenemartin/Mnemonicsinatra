@@ -70,10 +70,14 @@ form input[type="text"], form textarea {
   padding: 5px;
   font-size: 21px;
 }
-form input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
-cursor:pointer;
+form input[type=submit] {
+  padding:15px 15px; 
+  background:#ccc; 
+  border:0 none;
+  cursor:pointer;
 -webkit-border-radius: 5px;
-border-radius: 5px; }
+border-radius: 5px; 
+}
 
 form p {
   margin-bottom: 5px;
