@@ -27,21 +27,66 @@ body {
 -----------------------------------------------------------------------------*/
 
   header {
-    padding: 50px 200px 5px;
+    padding: 20px 200px 5px;
     text-align: center;
   }
   
   h1 {
-    
+      font-size: 100px;
       width: 500px;
-      height: 83px;
+      height: 2px;
     }
+
+/*---------------------------------------------------------------------------
+=03 IMAGE
+----------------------------------------------------------------------------*/
+
+#image {
+  margin: 0, auto;
+}
+
+
+#multiplication{
+  margin: 2px;
+  text-align: center;
+ }
+
+form {
+  background: black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/*form label {
+  display: block;
+  font-weight: bold;
+  float: left;
+  width: 200px;
+  text-align: right;
+  margin-right: 10px;
+}*/
+
+form input[type="text"], form textarea {
+  padding: 5px;
+  font-size: 21px;
+}
+form input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; }
+
+form p {
+  margin-bottom: 5px;
+}
+
+
+.clear {
+  clear:both; 
+}
+ footer {
+  text-align: center;
+ }
   
 
- /* /*-----------------------------------------------------------------------------
-  misc
-  -------------------------------------------------------------------------------*/
 
-  .clear {
-    clear:both;
-  }
+
