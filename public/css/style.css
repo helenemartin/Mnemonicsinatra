@@ -32,17 +32,26 @@ body {
   }
   
   h1 {
-      font-size: 100px;
+      font-size: 50px;
       width: 500px;
       height: 2px;
     }
 
 /*---------------------------------------------------------------------------
-=03 IMAGE
+=03 CONTENT
 ----------------------------------------------------------------------------*/
 
-#image {
-  margin: 0, auto;
+#content{
+  margin: 0 auto;
+}
+
+img {
+ size: 25px;
+ display: inline-block;
+  margin: 50px 0px 0px 260px;
+ height: 300px;
+
+
 }
 
 
