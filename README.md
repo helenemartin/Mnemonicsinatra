@@ -1,2 +1,3 @@
 #Mnemonic#9
-###A sinatra app that helps you remember the number multiplication table
+###A visual aid for the number 9 multiplication table
+Built on Sinatra
