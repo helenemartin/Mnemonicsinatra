@@ -79,6 +79,7 @@ background: -moz-linear-gradient(center top , #4E4C80 0%, #9A95D8 100%) repeat s
     padding: 15px 25px;
     text-decoration: none;
     box-shadow: 2px 2px 4px #888892;
+    cursor: pointer;
 }
 
 form input:hover {
