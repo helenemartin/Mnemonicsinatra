@@ -10,7 +10,12 @@
         <h1>Mnemonic#9</h1>
       </header>
         <div id ="content">
-        <img src=<%= "images/#{@number}.jpg" %>>
+        <% if not @error %>
+        <img src= <%= "images/#{@number}.jpg" %>>
+        <% end %>
+        <% if @error %>
+        <p>Wrong Input, it shouldn't be bigger than 10!</p>
+        <% end %>
         </div>
           <div class="clear"></div>
 

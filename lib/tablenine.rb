@@ -11,7 +11,12 @@ class Table < Sinatra::Base
     # Get the number the user is trying to multiply by 9
     @number = params[:message].to_i
     @calculation = @number * 9
+    
+     if @number>10
+      @error = true
+     end
     erb :calculation
   end
+
 
 end
