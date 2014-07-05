@@ -9,7 +9,7 @@ class Table < Sinatra::Base
 
   post '/submit' do
     # Get the number the user is trying to multiply by 9
-    @number = params[:message].to_i
+    @number = params[:text].to_i
     @calculation = @number * 9
     
      if @number>10
