@@ -1,7 +1,9 @@
 /*----------------------------------------------------------------------------- 
 =01 BODY 
 -----------------------------------------------------------------------------*/
-@font-face { font-family: 'Ecolier'; src: url('font/path/ecolier.eot'); src: url('font/path/ecolier.eot?#iefix') format('embedded-opentype'), url('font/path/ecolier.svg#Ecolier') format('svg'), url('font/path/ecolier.woff') format('woff'), url('font/path/ecolier.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+
+
+
 
 body {
   background-color: black;
