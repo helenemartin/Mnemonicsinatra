@@ -71,6 +71,10 @@ form {
 
 
 form input[type="message"], form textarea {
+
+  width: 200px;
+  height: 5px;
+  margin: 1px;
   padding: 1px;
   font-size: 10px;
 }
