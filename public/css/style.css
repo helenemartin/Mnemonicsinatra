@@ -57,11 +57,19 @@ img {
 }
 
 
-#multiplication{
+#multiplication {
   margin: 10px 10px 2px 10px;
   text-align: center;
   font-size: 25px;
  }
+
+label {
+ 
+  margin: -5px;
+  padding: 2px 5px 2px 5px;
+  font-size: 15px;
+
+}
 
 form {
   background: black;
@@ -74,7 +82,7 @@ form input[type="message"], form textarea {
 
   width: 200px;
   height: 5px;
-  margin: 1px;
+  margin: 5px;
   padding: 1px;
   font-size: 10px;
 }
