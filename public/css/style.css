@@ -65,8 +65,8 @@ img {
 
 label {
  
-  margin: -5px;
-  padding: 2px 5px 2px 5px;
+  margin: 5px;
+  padding: 8px 5px 2px 5px;
   font-size: 15px;
 
 }
@@ -81,9 +81,9 @@ form {
 form input[type="message"], form textarea {
 
   width: 200px;
-  height: 5px;
-  margin: 5px;
-  padding: 1px;
+  height: 10px;
+  margin: 20px 5px 10px 5px;
+  padding: 5px;
   font-size: 10px;
 }
 
