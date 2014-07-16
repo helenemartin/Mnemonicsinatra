@@ -4,6 +4,7 @@ class Table < Sinatra::Base
   use Rack::Static, :urls => ['/images', '/css'], :root => 'public'
 
   get '/' do
+    @number = 0
     erb :index
   end
 
@@ -16,7 +17,7 @@ class Table < Sinatra::Base
      if @number>10
       @error = true
      end
-    erb :calculation
+    erb :index
   end
 
 
