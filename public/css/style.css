@@ -51,30 +51,24 @@ body {
 img {
  size: 25px;
  display: inline-block;
-  margin: 50px 0px 0px 260px;
+  margin: 1px 0px 0px 260px;
  height: 300px;
 
 }
 
 
 #multiplication {
-  margin: 10px 10px 2px 10px;
+
   text-align: center;
-  font-size: 25px;
+  /*font-size: 25px;*/
  }
 
-label {
- 
-  margin: 5px;
-  padding: 8px 5px 2px 5px;
-  font-size: 15px;
 
-}
 
 form {
   background: black;
   padding: 10px;
-  margin: 10px;
+  margin: 8px 5px 10px 5px;
 }
 
 
@@ -82,7 +76,7 @@ form input[type="message"], form textarea {
 
   width: 200px;
   height: 10px;
-  margin: 20px 5px 10px 5px;
+  margin: 10px;
   padding: 5px;
   font-size: 10px;
 }
@@ -101,6 +95,39 @@ form input[type=submit] {
 form input:hover {
   box-shadow: 1px 1px 5px #888892 inset;
 }
+form label {
+  position: inline-block;
+  /*margin: 5px;*/
+  /*padding: 3px 5px 2px 5px;*/
+  font-size: 20px;
+
+}
+
+#alert {
+  text-align: center;
+  margin: 0px 10px 50px 273px;
+  width: 400px;
+  height: 300px;
+  display: block;
+  position: relative;
+  font-size: 30px;
+  line-height: 32px;
+
+}
+
+#alert::after {
+  opacity: 0.25;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  content: "";
+
+}
+
+  
 
 
 

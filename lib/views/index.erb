@@ -19,14 +19,17 @@
       </div>
 
       <div id ="content">
-          
+         
           <% if not @error %>
           <img src= <%= "images/#{@number}.jpg" %>>
           <% end %>
           <% if @error %>
+
           <img src= <%= "images/animhands.gif?" + Time.now.to_i.to_s %>> 
+          <div id="alert">
           <p>Wrong Input, it shouldn't be bigger than 10!</p>
           <% end %>
+        </div>
       </div>
           <div class="clear"></div>
     </div>
