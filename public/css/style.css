@@ -60,9 +60,8 @@ img {
 
 
 #multiplication {
-
+  margin: 0 auto;
   text-align: center;
-  /*margin: 10px 5px 5px 267px; */
   padding: 45px 0px 0px 0px;
 }
 
