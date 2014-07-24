@@ -14,10 +14,8 @@
               <textarea name="message" placeholder="Type a number between 0 and 10"><%= if @number>0 then @number end %></textarea>
               <label>X 9</label> 
               <input type="submit" value="Calculate" />
-            </p>
           </form>
       </div>
-
       <div id ="content">
         <% if @error %>
           <h5><span>Wrong Input, it shouldn't be bigger than 10!</span></h5>

@@ -66,7 +66,7 @@ img {
 #multiplication {
   margin: 0 auto;
   text-align: center;
-  padding: 45px 0px 0px 0px;
+  padding: 75px 0px 0px 55px;
 }
 
 
@@ -125,7 +125,7 @@ h5 {
    text-align: center;
    position: absolute; 
    left: 0; 
-   z-index: 15;
+   z-index: 1;
    opacity: 0.8;
   top: 430px;
   left: 200px;
