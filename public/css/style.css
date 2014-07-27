@@ -4,10 +4,11 @@
 
 @font-face {
   font-family: 'ecolier';
-  font-weight: bold;
-  src:  font-url('/webfonts/ecolier-webfont.eot') format('eot'), 
-        font-url('/webfonts/ecolier-webfont.woff') format('woff'),
-        font-url('/webfonts/ecolier-webfont.ttf') format('truetype');
+  font-style: bold;
+  src:  url('/webfonts/ecolier.eot') format('eot'), 
+        url('/webfonts/ecolier.woff') format('woff'),
+        url('/webfonts/ecolier.svg') format('svg'),
+        url('/webfonts/ecolier.ttf') format('truetype');
 }
 
 
@@ -16,7 +17,7 @@ body {
   background-color: black;
   margin:0;
   padding:0;
-  font-family: Arial, Helvetica;
+  font-family: arial, sans-serif;
   color: white;
   font-size: 50px;
   line-height: 19px;
@@ -43,10 +44,10 @@ body {
   }
   
   h1 {
-      font-family: ecolier, arial, sans-serif;
-      font-size: 50px;
+      font-family: 'ecolier', arial, sans-serif;
+      font-size: 89px;
       width: 500px;
-      height: 2px;
+      height: 10px;
     }
 
 /*---------------------------------------------------------------------------
@@ -129,15 +130,15 @@ form label {
 
 }
 
-h5 { 
-  margin: 0 auto;
+h6 { 
+ 
   text-align: center;
   position: absolute; 
   left: 0; 
   z-index: 1;
-  opacity: 0.8;
+  opacity: 0.7;
   top: 489px;
-  left: 230px;
+  left: 338px;
 }
 
 

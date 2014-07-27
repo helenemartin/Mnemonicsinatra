@@ -1,7 +1,7 @@
 require 'sinatra/base'
  
 class Table < Sinatra::Base
-  use Rack::Static, :urls => ['/images', '/css'], :root => 'public'
+  use Rack::Static, :urls => ['/images','/css','/webfonts'], :root => 'public'
 
   get '/' do
     @number = 0
