@@ -5,9 +5,9 @@
 @font-face {
   font-family: 'ecolier';
   font-weight: bold;
-  src:  font-url('/css/ecolier-webfont.eot') format('eot'), 
-        font-url('/css/ecolier-webfont.woff') format('woff'),
-        font-url('/css/ecolier-webfont.ttf') format('truetype');
+  src:  font-url('/webfonts/ecolier-webfont.eot') format('eot'), 
+        font-url('/webfonts/ecolier-webfont.woff') format('woff'),
+        font-url('/webfonts/ecolier-webfont.ttf') format('truetype');
 }
 
 
@@ -74,7 +74,7 @@ img {
 #multiplication {
   margin: 0 auto;
   text-align: center;
-  padding: 75px 0px 0px 55px;
+  padding: 75px 0px 0px 0px;
 }
 
 
