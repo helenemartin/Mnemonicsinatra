@@ -98,7 +98,7 @@ form input[type="message"], form textarea {
 
 form input[type=submit] {
 
-    background: -moz-linear-gradient(center top , #4E4C80 0%, #9A95D8 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(center top , #476D82 0%, #2f4958 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
     border-radius: 100px;
     margin: 5px;
     padding: 5px 10px;
