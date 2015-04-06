@@ -3,4 +3,4 @@
 Built on Sinatra
 
 I am starting all over from scratch using Pinterest as a template with [Mnemonic#9](http://mnemonic9.herokuapp.com/)
-![Mnemonic](https://github.com/helenemartin/Mnemonicsinatra/blob/master/app/public/images/anima.gif  "Mnemonic#9")
+![Mnemonic](https://github.com/helenemartin/Mnemonicsinatra/blob/master/app/images/anima.gif  "Mnemonic#9")
