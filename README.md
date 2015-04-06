@@ -3,4 +3,4 @@
 Built on Sinatra
 
 Heroku app [Mnemonic#9](http://mnemonic9.herokuapp.com/)
-![Mnemonic](https://github.com/helenemartin/Mnemonicsinatra/blob/master/app/public/images/anima.gif  "Mnemonic#9")
+![Mnemonic](https://github.com/helenemartin/Mnemonicsinatra/blob/master/public/images/anima.gif  "Mnemonic#9")
