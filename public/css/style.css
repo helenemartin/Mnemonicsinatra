@@ -31,7 +31,13 @@ body {
   margin: 0 auto;
     /*margin: 0 auto; centers our container on the page */
 }
+h1, h2, h3 {
+  line-height:1.1;
+}
 
+h1 {
+  font-size:28px;
+}
   
 /*----------------------------------------------------------------------------- 
 =02 HEADER 
@@ -66,11 +72,11 @@ header {
 
 img {
   position: relative;
-  top: 20px;
+  top: 150px;
  /*size: 25px;
  margin: 5px 0px 0px 295px;
  height: 300px;*/
- width: 50%;
+ width: 100%;
 }
 
 
@@ -134,6 +140,8 @@ form label {
   line-height: 32px;
 
 }
+
+
 
 h6 { 
  
