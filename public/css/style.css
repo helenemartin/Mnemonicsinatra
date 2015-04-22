@@ -29,6 +29,7 @@ body {
   background: (/images/0.jpg) no-repeat;
   width: 960px;
   margin: 0 auto;
+  position: fixed;
   /*margin: 0 auto; centers our container on the page */
 }
 
@@ -37,17 +38,20 @@ body {
 =02 HEADER 
 -----------------------------------------------------------------------------*/
 
-  header {
-    margin: 5px 10px 5px 120px;
-    padding: 30px 200px 5px;
-    
-  }
+ 
+header {
+  width:270px;
+   float:0;
+  position:relative;
+}
   
   h1 {
       font-family: 'ecolier', arial, sans-serif;
-      font-size: 89px;
-      width: 500px;
-      height: 10px;
+      font-size:100%;
+      text-align: center;
+      /*width: 500px;
+      height: 10px;*/
+      max-width:100%;
     }
 
 /*---------------------------------------------------------------------------
@@ -57,6 +61,7 @@ body {
 #content{
   margin: 0 auto;
   text-align: center;
+  position: fixed;
 }
 
 
@@ -73,6 +78,7 @@ img {
 
 
 #multiplication {
+  position: fixed;
   margin: 0 auto;
   text-align: center;
   padding: 75px 0px 0px 0px;
