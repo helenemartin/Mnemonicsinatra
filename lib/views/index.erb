@@ -19,8 +19,10 @@
           </form>
       </div>
         <% if @error %>
+        <div id="alert">
           <h6>Wrong Input, it shouldn't be bigger than 10!</h6>
           <img src= <%= "images/animnim.gif?" + Time.now.to_i.to_s %> alt=""> 
+        </div>
           <% else %>
           <img src= <%= "images/#{@number}.jpg" %>>
           <% end %>

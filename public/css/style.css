@@ -66,7 +66,7 @@ header {
 
 img {
   position: relative;
-  top: 75px;
+  top: 55px;
  /*size: 25px;
  margin: 5px 0px 0px 295px;
  height: 300px;*/
@@ -124,28 +124,28 @@ form label {
 }
 
 #alert {
-  text-align: center;
-  margin: 0px 10px 50px 273px;
-  width: 400px;
-  height: 300px;
-  display: block;
+  display: inherit;
+  margin: 0 auto;
+  /*text-align: center;*/
   position: relative;
-  font-size: 30px;
-  line-height: 32px;
+ /* font-size: 30px;
+  line-height: 32px;*/
 
 }
+
 
 
 
 h6 { 
   
   text-align: center;
-  position: fixed; 
+  position: relative; 
   left: 0; 
   z-index: 1;
-  opacity: 0.7;
-  top: 489px;
-  left: 338px;
+  opacity: 0.6;
+  top: 250px;
+  /*left: 100px;*/
+  
 }
 
 
@@ -202,8 +202,8 @@ h6 {
 
 @media print, screen and (max-width: 720px) {
   body {
-    word-wrap:break-word;
-  }
+    /*word-wrap:break-word;
+*/  }
   
   header {
     padding:0;
@@ -225,6 +225,10 @@ h6 {
   
   header ul {
     display:none;
+  }
+  h6 {
+    word-wrap:break-word;
+    line-height: 12pt;
   }
 }
 
