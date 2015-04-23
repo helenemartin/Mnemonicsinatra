@@ -31,13 +31,7 @@ body {
   margin: 0 auto;
     /*margin: 0 auto; centers our container on the page */
 }
-h1, h2, h3 {
-  line-height:1.1;
-}
 
-h1 {
-  font-size:28px;
-}
   
 /*----------------------------------------------------------------------------- 
 =02 HEADER 
@@ -45,17 +39,17 @@ h1 {
 
  
 header {
-  width:270px;
+  width:820px;
    float:0;
+   padding: 0 0 0 100px;
   /*position:relative;
 */}
   
   h1 {
       font-family: 'ecolier', arial, sans-serif;
-      font-size:100%;
+      font-size:80px;
       text-align: center;
-      /*width: 500px;
-      height: 10px;*/
+     
       max-width:100%;
     }
 
@@ -72,7 +66,7 @@ header {
 
 img {
   position: relative;
-  top: 150px;
+  top: 75px;
  /*size: 25px;
  margin: 5px 0px 0px 295px;
  height: 300px;*/
@@ -83,10 +77,10 @@ img {
 
 
 #multiplication {
-  position: fixed;
+  position: relative;
   margin: 0 auto;
   text-align: center;
-  padding: 75px 0px 0px 0px;
+  padding: 5px 0 0 35px;
 }
 
 
@@ -94,7 +88,7 @@ img {
 form {
   background: black;
   padding: 10px;
-  /*margin: 8px 5px 10px 5px;*/
+  margin: 8px 5px 10px 5px;
 }
 
 
@@ -144,9 +138,9 @@ form label {
 
 
 h6 { 
- 
+  
   text-align: center;
-  position: absolute; 
+  position: fixed; 
   left: 0; 
   z-index: 1;
   opacity: 0.7;
