@@ -131,21 +131,36 @@ form label {
   line-height: 32px;*/
 
 }
-#alert img{
+/*#alert img{
   width: 100%;
-}
+}*/
 
 
 
 
-h6 { 
-  
-  text-align: center;
-  position: relative; 
-  left: 0; 
+span { 
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+
+
+  font-family: 'ecolier', arial, sans-serif;
+  font-style: bold;
+  font-size: 100%;
+  line-height: 100%;
+  color: #ECF0F1;
+  display: inline-block;
+  position: absolute; 
+  left: 300px;
+  top: 400px;
   z-index: 1;
-  opacity: 0.6;
-  top: 250px;
+  opacity: 0.8;
+  
 
 }
 
@@ -227,7 +242,7 @@ h6 {
   header ul {
     display:none;
   }
-  h6 {
+ h6 {
     word-wrap:break-word;
     line-height: 12pt;
   }

@@ -18,10 +18,10 @@
               <label>X 9</label> 
               <input type="submit" value="Calculate" />
           </form>
-        <div>
-             <% if @error %>
-          <h6>Wrong Input, it shouldn't be bigger than 10!</h6>
-          <img src= <%= "images/animnim.gif?" + Time.now.to_i.to_s %> alt=""> 
+        <div id="alert">
+        <% if @error %>
+        <span>You only have 10 fingers!</span>
+          <img src= <%= "images/animnim.gif?" + Time.now.to_i.to_s %> > 
           <% else %>
           <img src= <%= "images/#{@number}.jpg" %>>
           <% end %>
