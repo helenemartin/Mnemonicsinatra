@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require 'json'
  
 class Table < Sinatra::Base
   use Rack::Static, :urls => ['/images','/css','/webfonts'], :root => 'public'
@@ -6,6 +7,14 @@ class Table < Sinatra::Base
   get '/' do
     @number = 0
     erb :index
+  end
+
+  post '/calculate' do
+    content_type :json
+    p params
+
+    result = params["message"].to_i * 9
+    {"result" => result}.to_json
   end
 
   post '/submit' do
@@ -18,6 +27,7 @@ class Table < Sinatra::Base
       @error = true
      end
     erb :index
+
   end
 
 

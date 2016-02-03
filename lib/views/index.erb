@@ -4,6 +4,25 @@
     <title>Mnemonic#9</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="images/mnemofav.png">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#form_submit").click(function(){
+          message = $('#message').val()
+
+          data = {message: message}
+
+          // look at jQuery $.ajax / $.post
+          $.post("/calculate", data).success(function(json){
+            // look up how to update image src in jquery
+            src = "images/" + json.result + ".jpg";
+
+            $('#finger_image').attr('src', src);
+          })
+        })
+      })  
+        
+    </script>
     </head>
   <body>
       <div class="wrapper">
@@ -14,16 +33,16 @@
       <div id ="content">
         <div id="multiplication">
           <form action="/submit" method="post">
-              <textarea name="message" placeholder="Type a number between 0 and 10"><%= if @number>0 then @number end %></textarea>
+              <textarea name="message" id="message" placeholder="Type a number between 0 and 10"><%= if @number>0 then @number end %></textarea>
               <label>X 9</label> 
-              <input type="submit" value="Calculate" />
+              <input type="button" id="form_submit" value="Calculate" />
           </form>
         <div id="alert">
         <% if @error %>
         <span>You only have 10 fingers!</span>
           <img src= <%= "images/animnim.gif?" + Time.now.to_i.to_s %> > 
           <% else %>
-          <img src= <%= "images/#{@number}.jpg" %>>
+          <img id="finger_image" src= <%= "images/#{@number}.jpg" %>>
           <% end %>
       </div>
      <!-- <div class="clear"></div> -->
