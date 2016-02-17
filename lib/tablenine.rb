@@ -12,9 +12,14 @@ class Table < Sinatra::Base
   post '/calculate' do
     content_type :json
     p params
+    @number = number
+     
+    if @number = params[:message].to_i <= 10
+    {"result" => result.to_s + '.jpg'}.to_json
+    else result > 10
+    {"result" => "images/animnim.gif?" + Time.now.to_i.to_s }.to_json
+    end
 
-    result = params["message"].to_i * 9
-    {"result" => result}.to_json
   end
 
   post '/submit' do
