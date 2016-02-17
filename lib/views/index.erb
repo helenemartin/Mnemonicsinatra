@@ -10,7 +10,14 @@
         $(document).on("submit", "#number_form", function(event){
           event.preventDefault();
           var number = $(this).find("#message").val();
-          $("#finger_image").attr('src', "images/"+ number + '.jpg');
+         
+          if(parseInt(number)  <= 10) { 
+            $("#finger_image").attr('src', "images/"+ number + '.jpg');
+
+          } else {
+            $("#finger_image").attr('src', "images/animnim.gif");
+
+          }
          
         })
       })  
@@ -26,7 +33,7 @@
       <div id ="content">
         <div id="multiplication">
           <form id="number_form" action="/submit" method="post">
-              <textarea name="message" id="message" placeholder="Type a number between 0 and 10"><%= if @number>0 then @number end %></textarea>
+              <input type="text" pattern="[0-9]{1,2}" name="message" id="message" placeholder="Type a number between 0 and 10"><%= if @number>0 then @number end %></textarea>
               <label>X 9</label> 
               <input type="submit" value="Calculate" />
           </form>
