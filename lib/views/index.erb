@@ -13,9 +13,11 @@
          
           if(parseInt(number)  <= 10) { 
             $("#finger_image").attr('src', "images/"+ number + '.jpg');
+            $("#toomany").hide();
 
           } else {
             $("#finger_image").attr('src', "images/animnim.gif");
+            $("#toomany").show();
 
           }
          
@@ -38,8 +40,8 @@
               <input type="submit" value="Calculate" />
           </form>
         <div id="alert">
-        <% if @error %>
-        <span>You only have 10 fingers!</span>
+          <span id="toomany">You only have 10 fingers!</span>
+          <% if @error %>
           <img src= <%= "images/animnim.gif?" + Time.now.to_i.to_s %> > 
           <% else %>
           <img id="finger_image" src= <%= "images/#{@number}.jpg" %>>
